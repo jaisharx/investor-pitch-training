@@ -2,7 +2,7 @@
     padding: 2rem 0;
 
     .contact {
-        padding: 4rem 0;
+        padding: 3rem 0;
         display: flex;
         align-items: center;
         position: relative;
@@ -33,6 +33,14 @@
 
         .cols {
             width: 20rem;
+        }
+
+        .cols:nth-child(2) {
+            width: 17rem;
+        }
+        
+        .cols:nth-child(3) {
+            width: 22rem;
         }
 
         h3 {
