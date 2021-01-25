@@ -8,10 +8,12 @@
 @import './base/base';
 
 // component styles
-@import './components/navbar';
+@import './components/header';
 @import './components/footer';
 @import './components/button';
 
+// utils styles
+@import './utils/container';
 
 
 // page styles
