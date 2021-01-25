@@ -1,0 +1,54 @@
+.footer {
+    padding: 2rem 0;
+
+    .contact {
+        padding: 4rem 0;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        border-top: 1px solid rgba(155,158,184,.26);
+        border-bottom: 1px solid rgba(155,158,184,.26);
+
+        .logo {
+            margin-right: auto;
+            
+            img {
+                width: 80%;
+
+            }
+        }
+
+        .question {
+            color: #0a1f44;
+            font-weight: 500;
+            font-size: 1.5rem;
+            margin-right: 1.2rem;
+        }
+    }
+
+    .box {
+        display: flex;
+        margin: 4rem 0 10rem 0;
+
+        .cols {
+            width: 20rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0a1f44;
+        }
+
+        li {
+            color: #8a94A6;
+            margin: 1rem 0;
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+    }
+}
